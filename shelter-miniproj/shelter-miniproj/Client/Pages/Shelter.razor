@@ -1,0 +1,31 @@
+﻿@page "/shelters"
+@using shelterminiproj.Shared;
+@using shelter_miniproj.Shared;
+
+@using System.Threading.Tasks;
+@inject HttpClient Http
+
+<h1>Shelters</h1>
+
+<ul>
+    @foreach (var Shelter in shelterlist)
+    {
+        <li>@Shelter.name</li>
+        <li>@Shelter.tilgængelig</li>
+        <li>@Shelter.tilladte_personer</li>
+
+
+
+    }
+
+</ul>
+
+@code {
+    private Shelter[] shelterlist = Array.Empty<Shelter>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        shelterlist = await Http.GetFromJsonAsync<Shelter[]>("Shelter");
+    }
+
+}
