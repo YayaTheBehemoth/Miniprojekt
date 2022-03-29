@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{0564E3C6-02BA-4A50-BF53-F36E0290C781}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelter-miniproj/Client/Pages/shelter.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelter-miniproj/Server/Controllers/ShelterController.cs">
     <Files>
-      <File FileName="shelter-miniproj/Shared/Shelter.cs" Line="10" Column="46" />
-      <File FileName="shelter-miniproj/Client/Pages/Index (copy).razor" Line="23" Column="8" />
-      <File FileName="shelter-miniproj/Server/Controllers/Sheltercontroller.cs" Line="12" Column="1" />
-      <File FileName="shelter-miniproj/Server/SampleShelters.cs" Line="22" Column="2" />
-      <File FileName="shelter-miniproj/Client/Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="shelter-miniproj/Shared/Shelter.cs" Line="16" Column="14" />
+      <File FileName="shelter-miniproj/Server/SampleShelters.cs" Line="1" Column="1" />
+      <File FileName="shelter-miniproj/Server/Controllers/ShelterController.cs" Line="31" Column="41" />
+      <File FileName="shelter-miniproj/Client/Pages/Shelter.razor" />
+      <File FileName="shelter-miniproj/Server/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +18,10 @@
                 <Node name="NavMenu.razor" expanded="True" />
               </Node>
             </Node>
-            <Node name="shelter-miniproj.Server" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="shelter-miniproj.Server" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ShelterController.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="shelter-miniproj.Shared" expanded="True" />
           </Node>
@@ -30,7 +32,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/shelter.razor" relfile="shelter-miniproj/Client/Pages/shelter.razor" line="24" column="1" />
+      <Breakpoint file="/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Server/Controllers/ShelterController.cs" relfile="shelter-miniproj/Server/Controllers/ShelterController.cs" line="31" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.shelter-miniproj.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
