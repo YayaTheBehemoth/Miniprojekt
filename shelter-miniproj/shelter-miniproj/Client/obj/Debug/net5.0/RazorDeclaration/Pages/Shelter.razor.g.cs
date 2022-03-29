@@ -10,6 +10,7 @@ namespace shelter_miniproj.Client.Pages
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
 #line 1 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/_Imports.razor"
@@ -82,22 +83,8 @@ using shelter_miniproj.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
-using shelterminiproj.Shared;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 3 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
-using shelter_miniproj.Shared;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 5 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
-using System.Threading.Tasks;
+using shelterminiproj.Shared;
 
 #line default
 #line hidden
@@ -111,13 +98,15 @@ using System.Threading.Tasks;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
+#line 18 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
        
-    private Shelter[] shelterlist = Array.Empty<Shelter>();
+    private ShelterClass[] shelterlist = Array.Empty<ShelterClass>();
 
     protected override async Task OnInitializedAsync()
     {
-        shelterlist = await Http.GetFromJsonAsync<Shelter[]>("Shelter");
+        shelterlist = await Http.GetFromJsonAsync<ShelterClass[]>("Shelter");
+     
+        
     }
 
 
