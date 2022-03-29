@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "shelter-miniproj.Shared/1.0.0": {
+        "runtime": {
+          "shelter-miniproj.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "shelter-miniproj.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

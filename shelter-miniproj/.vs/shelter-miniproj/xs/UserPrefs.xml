@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{0564E3C6-02BA-4A50-BF53-F36E0290C781}|Default">
-  <MonoDevelop.Ide.ItemProperties.shelter-miniproj.Client FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelter-miniproj/Server/Controllers/ValuesController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelter-miniproj/Client/Program.cs">
     <Files>
-      <File FileName="shelter-miniproj/Shared/Shelter.cs" Line="17" Column="1" />
+      <File FileName="shelter-miniproj/Shared/Shelter.cs" Line="9" Column="1" />
+      <File FileName="shelter-miniproj/Client/Pages/Index (copy).razor" Line="10" Column="1" />
+      <File FileName="shelter-miniproj/Server/Controllers/Sheltercontroller.cs" Line="12" Column="1" />
+      <File FileName="shelter-miniproj/Server/SampleShelters.cs" Line="22" Column="2" />
+      <File FileName="shelter-miniproj/Client/Shared/MainLayout.razor" Line="1" Column="1" />
+      <File FileName="shelter-miniproj/Client/_Imports.razor" Line="1" Column="1" />
       <File FileName="shelter-miniproj/Client/App.razor" Line="1" Column="1" />
-      <File FileName="shelter-miniproj/Client/Pages/Index (copy).razor" Line="3" Column="1" />
-      <File FileName="shelter-miniproj/Server/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="shelter-miniproj/Client/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,11 +16,13 @@
           <Node name="shelter-miniproj" expanded="True">
             <Node name="shelter-miniproj.Client" expanded="True">
               <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="NavMenu.razor" expanded="True" />
+              </Node>
             </Node>
             <Node name="shelter-miniproj.Server" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ValuesController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" selected="True" />
             </Node>
             <Node name="shelter-miniproj.Shared" expanded="True" />
           </Node>
@@ -31,6 +36,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.shelter-miniproj.Shared FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.shelter-miniproj.Server FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.shelter-miniproj.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

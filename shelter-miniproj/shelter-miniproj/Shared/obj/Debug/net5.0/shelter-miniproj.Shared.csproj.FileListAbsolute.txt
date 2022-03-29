@@ -1,0 +1,11 @@
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/bin/Debug/net5.0/shelter-miniproj.Shared.deps.json
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/bin/Debug/net5.0/shelter-miniproj.Shared.dll
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/bin/Debug/net5.0/ref/shelter-miniproj.Shared.dll
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/bin/Debug/net5.0/shelter-miniproj.Shared.pdb
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.AssemblyInfoInputs.cache
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.AssemblyInfo.cs
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.csproj.CoreCompileInputs.cache
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.dll
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/ref/shelter-miniproj.Shared.dll
+/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.pdb

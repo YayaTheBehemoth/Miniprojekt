@@ -4,13 +4,12 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace shelter_miniproj.Client.Shared
+namespace shelter_miniproj.Client.Pages
 {
     #line hidden
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
 #line 1 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/_Imports.razor"
@@ -82,7 +81,29 @@ using shelter_miniproj.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
+using shelterminiproj.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
+using shelter_miniproj.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
+using System.Threading.Tasks;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/shelters")]
+    public partial class Shelter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,20 +111,20 @@ using shelter_miniproj.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Shared/NavMenu.razor"
+#line 23 "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/Shelter.razor"
        
-    private bool collapseNavMenu = true;
+    private Shelter[] shelterlist = Array.Empty<Shelter>();
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    protected override async Task OnInitializedAsync()
     {
-        collapseNavMenu = !collapseNavMenu;
+        shelterlist = await Http.GetFromJsonAsync<Shelter[]>("Shelter");
     }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591
