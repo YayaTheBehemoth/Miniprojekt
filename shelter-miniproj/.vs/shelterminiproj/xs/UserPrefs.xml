@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{0564E3C6-02BA-4A50-BF53-F36E0290C781}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="shelter-miniproj/Server/Controllers/ShelterController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shelter-miniproj/Server/Controllers/HomeController.cs">
     <Files>
-      <File FileName="shelter-miniproj/Shared/Shelter.cs" Line="16" Column="14" />
-      <File FileName="shelter-miniproj/Server/SampleShelters.cs" Line="1" Column="1" />
-      <File FileName="shelter-miniproj/Server/Controllers/ShelterController.cs" Line="31" Column="41" />
-      <File FileName="shelter-miniproj/Client/Pages/Shelter.razor" />
-      <File FileName="shelter-miniproj/Server/Program.cs" />
+      <File FileName="shelter-miniproj/Shared/Shelter.cs" Line="19" Column="28" />
+      <File FileName="shelter-miniproj/Server/SampleShelters.cs" Line="9" Column="33" />
+      <File FileName="shelter-miniproj/Server/Controllers/ShelterController.cs" Line="31" Column="1" />
+      <File FileName="shelter-miniproj/Client/Pages/Shelter.razor" Line="24" Column="6" />
+      <File FileName="shelter-miniproj/Server/Program.cs" Line="1" Column="1" />
+      <File FileName="shelter-miniproj/Server/Controllers/HomeController.cs" Line="13" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,11 +21,18 @@
             </Node>
             <Node name="shelter-miniproj.Server" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="ShelterController.cs" selected="True" />
+                <Node name="HomeController.cs" selected="True" />
               </Node>
             </Node>
             <Node name="shelter-miniproj.Shared" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>shelterlist</Value>
+          <Value>list1</Value>
+          <Value>SampleShelter.list1</Value>
         </State>
       </Pad>
     </Pads>
@@ -32,10 +40,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/Pages/shelter.razor" relfile="shelter-miniproj/Client/Pages/shelter.razor" line="24" column="1" />
-      <Breakpoint file="/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Server/Controllers/ShelterController.cs" relfile="shelter-miniproj/Server/Controllers/ShelterController.cs" line="31" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.shelter-miniproj.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
