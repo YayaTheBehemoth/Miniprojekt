@@ -1,0 +1,119 @@
+﻿@page "/"
+@using miniproj3.Shared
+
+@inject HttpClient Http
+<!--
+@if (shelters == null)
+{
+    <p><em>Summoning the dark lord</em></p>
+}
+-->
+<div class="row">
+    <div class="col-lg-6">
+        <h3>Book her!</h3>
+
+        <input placeholder="Enter Name" @bind="Booking.Name" />
+        <input @bind-value="Booking.Email" placeholder="Enter Email" />
+        <input @bind-value="Booking.Note" placeholder="Kommentar" />
+        <input @bind-value="Booking.Tlf" placeholder="tlf" />
+        <input @bind-value="Booking.By" placeholder="By" />
+        <input @bind-value="Booking.Adresse" placeholder="Adresse" />
+        <input @bind-value="Booking.PostNr" placeholder="Post nummer" />
+        <input @bind-value="Booking.AntalPersoner" placeholder="Antal personer" />
+        <input @bind-value="Booking.Afrejse" placeholder="Enter Afrejse" />
+        <input @bind-value="Booking.Ankomst" placeholder="Enter Ankomst" />
+        <!--
+    <select name="shelters">
+        @foreach (var shelter in shelters)
+        {
+            <option value="@shelter.Id">shelter.Id</option>
+        }
+    </select>
+        -->
+        <button class="btn btn-primary btn-block" @onclick="SubmitShelter"> Submit</button>
+
+    </div>
+</div>
+<!--
+        @if (shelters == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+
+
+
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Type</th>
+                        <th>
+                            Edit
+                        </th>
+                        <th>
+                            Delete
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var shelter in shelters)
+                    {
+                        <tr>
+                            <td>@shelter.Id</td>
+                            <td>@shelter.Name</td>
+                            <td>
+                                <button class="btn btn-sm btn-primary" @onclick="@(()=>GetShelter(@shelter.Id))">Edit</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-sm btn-primary" @onclick="@(()=>DeleteShelter(@shelter.Id))">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        }
+    -->
+@code {/*
+    private ShelterTest[] shelters;
+*/
+    private bool edit = false;
+    private Booking Booking = new Booking();
+    /*
+    protected override async Task OnInitializedAsync()
+    {
+        shelters = await Http.GetFromJsonAsync<ShelterTest[]>("api/front/shelters");
+    }
+    */
+
+    private async Task DeleteShelter(string id)
+    {
+        await Http.DeleteAsync("api/shelter" + id);
+        await OnInitializedAsync();
+    }
+    private async Task GetShelter(string id)
+    {
+        Booking = await Http.GetFromJsonAsync<Booking>("api/shelter" + id);
+        edit = true;
+    }
+    private async Task SubmitShelter()
+    {
+        if (edit == false)
+        {
+            await Http.PostAsJsonAsync<Booking>("api/shelter", Booking);
+            await OnInitializedAsync();
+            Booking = new Booking();
+
+        }
+        else
+        {
+            await Http.PutAsJsonAsync<Booking>("api/shelter" + Booking.Id, Booking);
+            Booking = new Booking();
+            edit = false;
+            await OnInitializedAsync();
+        }
+    }
+
+}
