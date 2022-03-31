@@ -9,3 +9,8 @@
 /Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.dll
 /Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/ref/shelter-miniproj.Shared.dll
 /Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/Debug/net5.0/shelter-miniproj.Shared.pdb
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter-miniproj.Shared.csproj.AssemblyReference.cache
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter-miniproj.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter-miniproj.Shared.AssemblyInfoInputs.cache
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter-miniproj.Shared.AssemblyInfo.cs
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter-miniproj.Shared.csproj.CoreCompileInputs.cache

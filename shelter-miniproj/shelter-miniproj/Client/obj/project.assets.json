@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "DnsClient/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -535,18 +544,32 @@
           }
         }
       },
-      "shelter-miniproj.Shared/1.0.0": {
+      "shelter_miniproj.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Bogus": "34.0.2",
+          "MongoDB.Bson": "2.15.0",
+          "MongoDB.Driver": "2.15.0"
+        },
         "compile": {
-          "bin/placeholder/shelter-miniproj.Shared.dll": {}
+          "bin/placeholder/shelter_miniproj.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/shelter-miniproj.Shared.dll": {}
+          "bin/placeholder/shelter_miniproj.Shared.dll": {}
         }
       }
     },
     "net5.0/browser-wasm": {
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "DnsClient/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -1014,19 +1037,43 @@
           "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
         }
       },
-      "shelter-miniproj.Shared/1.0.0": {
+      "shelter_miniproj.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Bogus": "34.0.2",
+          "MongoDB.Bson": "2.15.0",
+          "MongoDB.Driver": "2.15.0"
+        },
         "compile": {
-          "bin/placeholder/shelter-miniproj.Shared.dll": {}
+          "bin/placeholder/shelter_miniproj.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/shelter-miniproj.Shared.dll": {}
+          "bin/placeholder/shelter_miniproj.Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "DnsClient/1.6.0": {
       "sha512": "kVd3IxAs5EQZSKTQhMUaJmuOQ1n2VWKExatdqNszsxxKzTB+Toaxx3M1DsN3yKfHloMXPmt6fgfcOqRwKheoUQ==",
       "type": "package",
@@ -1967,10 +2014,10 @@
         "version.txt"
       ]
     },
-    "shelter-miniproj.Shared/1.0.0": {
+    "shelter_miniproj.Shared/1.0.0": {
       "type": "project",
-      "path": "../Shared/shelter-miniproj.Shared.csproj",
-      "msbuildProject": "../Shared/shelter-miniproj.Shared.csproj"
+      "path": "../Shared/shelter_miniproj.Shared.csproj",
+      "msbuildProject": "../Shared/shelter_miniproj.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1980,36 +2027,38 @@
       "MongoDB.Driver >= 2.15.0",
       "Newtonsoft.Json >= 13.0.1",
       "System.Net.Http.Json >= 5.0.0",
-      "shelter-miniproj.Shared >= 1.0.0"
+      "shelter_miniproj.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/placeholder/.nuget/packages/": {}
+    "C:\\Users\\Chefen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/shelter-miniproj.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter-miniproj.Client.csproj",
       "projectName": "shelter-miniproj.Client",
-      "projectPath": "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/shelter-miniproj.Client.csproj",
-      "packagesPath": "/Users/placeholder/.nuget/packages/",
-      "outputPath": "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Client/obj/",
+      "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter-miniproj.Client.csproj",
+      "packagesPath": "C:\\Users\\Chefen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/placeholder/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Chefen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/shelter-miniproj.Shared.csproj": {
-              "projectPath": "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/shelter-miniproj.Shared.csproj"
+            "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter_miniproj.Shared.csproj": {
+              "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter_miniproj.Shared.csproj"
             }
           }
         }
@@ -2059,7 +2108,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.15, 5.0.15]"
+            "version": "[5.0.14, 5.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -2067,7 +2116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/shelter-miniproj.Shared.csproj": {}
+    "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter-miniproj.Shared.csproj": {}
   },
   "projects": {
-    "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/shelter-miniproj.Shared.csproj": {
+    "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter-miniproj.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/shelter-miniproj.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter-miniproj.Shared.csproj",
         "projectName": "shelter-miniproj.Shared",
-        "projectPath": "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/shelter-miniproj.Shared.csproj",
-        "packagesPath": "/Users/placeholder/.nuget/packages/",
-        "outputPath": "/Users/placeholder/Desktop/Miniprojekt/shelter-miniproj/shelter-miniproj/Shared/obj/",
+        "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter-miniproj.Shared.csproj",
+        "packagesPath": "C:\\Users\\Chefen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/placeholder/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Chefen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
