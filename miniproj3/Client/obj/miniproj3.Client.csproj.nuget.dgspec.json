@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/placeholder/Projects/miniproj3/miniproj3/Client/miniproj3.Client.csproj": {}
+    "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Client\\miniproj3.Client.csproj": {}
   },
   "projects": {
-    "/Users/placeholder/Projects/miniproj3/miniproj3/Client/miniproj3.Client.csproj": {
+    "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Client\\miniproj3.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/placeholder/Projects/miniproj3/miniproj3/Client/miniproj3.Client.csproj",
+        "projectUniqueName": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Client\\miniproj3.Client.csproj",
         "projectName": "miniproj3.Client",
-        "projectPath": "/Users/placeholder/Projects/miniproj3/miniproj3/Client/miniproj3.Client.csproj",
-        "packagesPath": "/Users/placeholder/.nuget/packages/",
-        "outputPath": "/Users/placeholder/Projects/miniproj3/miniproj3/Client/obj/",
+        "projectPath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Client\\miniproj3.Client.csproj",
+        "packagesPath": "C:\\Users\\zulud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/placeholder/.config/NuGet/NuGet.Config"
+          "C:\\Users\\zulud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/placeholder/Projects/miniproj3/miniproj3/Shared/miniproj3.Shared.csproj": {
-                "projectPath": "/Users/placeholder/Projects/miniproj3/miniproj3/Shared/miniproj3.Shared.csproj"
+              "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Shared\\miniproj3.Shared.csproj": {
+                "projectPath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Shared\\miniproj3.Shared.csproj"
               }
             }
           }
@@ -81,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -90,22 +92,24 @@
         }
       }
     },
-    "/Users/placeholder/Projects/miniproj3/miniproj3/Shared/miniproj3.Shared.csproj": {
+    "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Shared\\miniproj3.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/placeholder/Projects/miniproj3/miniproj3/Shared/miniproj3.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Shared\\miniproj3.Shared.csproj",
         "projectName": "miniproj3.Shared",
-        "projectPath": "/Users/placeholder/Projects/miniproj3/miniproj3/Shared/miniproj3.Shared.csproj",
-        "packagesPath": "/Users/placeholder/.nuget/packages/",
-        "outputPath": "/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/",
+        "projectPath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Shared\\miniproj3.Shared.csproj",
+        "packagesPath": "C:\\Users\\zulud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/placeholder/.config/NuGet/NuGet.Config"
+          "C:\\Users\\zulud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -144,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

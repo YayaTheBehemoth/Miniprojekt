@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9lyjwEfOWS/KnhE+05LnTWZwIuX05k6JR0uAIeqEDmw6VbYmy8J2/IF1fspPuoXBLEX4iJTQNSbbKJ8mKuM6iw==",
+  "dgSpecHash": "AYjE5GvkwuW+ElTPHmo1YEwreC1V1/xaRfO986A231+32W1t2FWxgGhVVVcFbCWO9Y+aU71rjVvdISTyJPwixw==",
   "success": true,
-  "projectFilePath": "/Users/placeholder/Projects/miniproj3/miniproj3/Shared/miniproj3.Shared.csproj",
+  "projectFilePath": "C:\\Users\\zulud\\OneDrive\\Dokumenter\\Skole\\Fag\\2. semester\\Miniprojekt\\Miniprojekt\\miniproj3\\Shared\\miniproj3.Shared.csproj",
   "expectedPackageFiles": [
-    "/Users/placeholder/.nuget/packages/mongodb.bson/2.15.0/mongodb.bson.2.15.0.nupkg.sha512",
-    "/Users/placeholder/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\zulud\\.nuget\\packages\\mongodb.bson\\2.15.0\\mongodb.bson.2.15.0.nupkg.sha512",
+    "C:\\Users\\zulud\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
