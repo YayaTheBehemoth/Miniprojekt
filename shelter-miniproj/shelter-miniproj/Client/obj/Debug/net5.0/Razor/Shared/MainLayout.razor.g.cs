@@ -86,21 +86,21 @@ using shelter_miniproj.Client.Shared;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "page");
-            __builder.AddAttribute(2, "b-84ibmmb31x");
+            __builder.AddAttribute(2, "b-smcv8zewsk");
             __builder.OpenElement(3, "div");
             __builder.AddAttribute(4, "class", "sidebar");
-            __builder.AddAttribute(5, "b-84ibmmb31x");
+            __builder.AddAttribute(5, "b-smcv8zewsk");
             __builder.OpenComponent<shelter_miniproj.Client.Shared.NavMenu>(6);
             __builder.CloseComponent();
             __builder.CloseElement();
             __builder.AddMarkupContent(7, "\r\n\r\n    ");
             __builder.OpenElement(8, "div");
             __builder.AddAttribute(9, "class", "main");
-            __builder.AddAttribute(10, "b-84ibmmb31x");
-            __builder.AddMarkupContent(11, "<div class=\"top-row px-4\" b-84ibmmb31x><a href=\"http://blazor.net\" target=\"_blank\" class=\"ml-md-auto\" b-84ibmmb31x>About</a></div>\r\n\r\n        ");
+            __builder.AddAttribute(10, "b-smcv8zewsk");
+            __builder.AddMarkupContent(11, "<div class=\"top-row px-4\" b-smcv8zewsk><a href=\"http://blazor.net\" target=\"_blank\" class=\"ml-md-auto\" b-smcv8zewsk>About</a></div>\r\n\r\n        ");
             __builder.OpenElement(12, "div");
             __builder.AddAttribute(13, "class", "content px-4");
-            __builder.AddAttribute(14, "b-84ibmmb31x");
+            __builder.AddAttribute(14, "b-smcv8zewsk");
 #nullable restore
 #line 14 "C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Client\Shared\MainLayout.razor"
 __builder.AddContent(15, Body);

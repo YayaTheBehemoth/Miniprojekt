@@ -479,6 +479,18 @@
           "lib/net5.0/SharpCompress.dll": {}
         }
       },
+      "SolrNet.Core/1.0.19": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SolrNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SolrNet.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -553,7 +565,7 @@
           }
         }
       },
-      "shelter-miniproj.Client/1.0.0": {
+      "shelter_miniproj.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -564,10 +576,10 @@
           "shelter_miniproj.Shared": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/shelter-miniproj.Client.dll": {}
+          "bin/placeholder/shelter_miniproj.Client.dll": {}
         },
         "runtime": {
-          "bin/placeholder/shelter-miniproj.Client.dll": {}
+          "bin/placeholder/shelter_miniproj.Client.dll": {}
         }
       },
       "shelter_miniproj.Shared/1.0.0": {
@@ -1325,6 +1337,21 @@
         "sharpcompress.nuspec"
       ]
     },
+    "SolrNet.Core/1.0.19": {
+      "sha512": "Sy0f53KwVehE65bSVsmNfaYa5SDyQdsMkBD3oPvsMCnAOwXy7ZnXhnYHEbGM8z3akdhxa7/gR0JaAoIN2fKBeA==",
+      "type": "package",
+      "path": "solrnet.core/1.0.19",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/SolrNet.dll",
+        "lib/net46/SolrNet.xml",
+        "lib/netstandard2.0/SolrNet.dll",
+        "lib/netstandard2.0/SolrNet.xml",
+        "solrnet.core.1.0.19.nupkg.sha512",
+        "solrnet.core.nuspec"
+      ]
+    },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -1538,10 +1565,10 @@
         "version.txt"
       ]
     },
-    "shelter-miniproj.Client/1.0.0": {
+    "shelter_miniproj.Client/1.0.0": {
       "type": "project",
-      "path": "../Client/shelter-miniproj.Client.csproj",
-      "msbuildProject": "../Client/shelter-miniproj.Client.csproj"
+      "path": "../Client/shelter_miniproj.Client.csproj",
+      "msbuildProject": "../Client/shelter_miniproj.Client.csproj"
     },
     "shelter_miniproj.Shared/1.0.0": {
       "type": "project",
@@ -1553,7 +1580,8 @@
     "net5.0": [
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.15",
       "MongoDB.Driver >= 2.15.0",
-      "shelter-miniproj.Client >= 1.0.0",
+      "SolrNet.Core >= 1.0.19",
+      "shelter_miniproj.Client >= 1.0.0",
       "shelter_miniproj.Shared >= 1.0.0"
     ]
   },
@@ -1584,8 +1612,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter-miniproj.Client.csproj": {
-              "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter-miniproj.Client.csproj"
+            "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter_miniproj.Client.csproj": {
+              "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter_miniproj.Client.csproj"
             },
             "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter_miniproj.Shared.csproj": {
               "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Shared\\shelter_miniproj.Shared.csproj"
@@ -1610,6 +1638,10 @@
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.15.0, )"
+          },
+          "SolrNet.Core": {
+            "target": "Package",
+            "version": "[1.0.19, )"
           }
         },
         "imports": [

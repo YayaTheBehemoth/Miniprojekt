@@ -86,8 +86,8 @@ using shelter_miniproj.Client.Shared;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "top-row pl-4 navbar navbar-dark");
-            __builder.AddAttribute(2, "b-ctvlwvpxqk");
-            __builder.AddMarkupContent(3, "<a class=\"navbar-brand\" href b-ctvlwvpxqk>shelter-miniproj</a>\r\n    ");
+            __builder.AddAttribute(2, "b-kg1tlgawje");
+            __builder.AddMarkupContent(3, "<a class=\"navbar-brand\" href b-kg1tlgawje>shelter-miniproj</a>\r\n    ");
             __builder.OpenElement(4, "button");
             __builder.AddAttribute(5, "class", "navbar-toggler");
             __builder.AddAttribute(6, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
@@ -99,8 +99,8 @@ using shelter_miniproj.Client.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(7, "b-ctvlwvpxqk");
-            __builder.AddMarkupContent(8, "<span class=\"navbar-toggler-icon\" b-ctvlwvpxqk></span>");
+            __builder.AddAttribute(7, "b-kg1tlgawje");
+            __builder.AddMarkupContent(8, "<span class=\"navbar-toggler-icon\" b-kg1tlgawje></span>");
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.AddMarkupContent(9, "\r\n\r\n");
@@ -123,13 +123,13 @@ using shelter_miniproj.Client.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(13, "b-ctvlwvpxqk");
+            __builder.AddAttribute(13, "b-kg1tlgawje");
             __builder.OpenElement(14, "ul");
             __builder.AddAttribute(15, "class", "nav flex-column");
-            __builder.AddAttribute(16, "b-ctvlwvpxqk");
+            __builder.AddAttribute(16, "b-kg1tlgawje");
             __builder.OpenElement(17, "li");
             __builder.AddAttribute(18, "class", "nav-item px-3");
-            __builder.AddAttribute(19, "b-ctvlwvpxqk");
+            __builder.AddAttribute(19, "b-kg1tlgawje");
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(20);
             __builder.AddAttribute(21, "class", "nav-link");
             __builder.AddAttribute(22, "href", "");
@@ -143,7 +143,7 @@ using shelter_miniproj.Client.Shared;
 #nullable disable
             ));
             __builder.AddAttribute(24, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(25, "<span class=\"oi oi-home\" aria-hidden=\"true\" b-ctvlwvpxqk></span> Home\r\n            ");
+                __builder2.AddMarkupContent(25, "<span class=\"oi oi-home\" aria-hidden=\"true\" b-kg1tlgawje></span> Home\r\n            ");
             }
             ));
             __builder.CloseComponent();
@@ -151,12 +151,12 @@ using shelter_miniproj.Client.Shared;
             __builder.AddMarkupContent(26, "\r\n        ");
             __builder.OpenElement(27, "li");
             __builder.AddAttribute(28, "class", "nav-item px-3");
-            __builder.AddAttribute(29, "b-ctvlwvpxqk");
+            __builder.AddAttribute(29, "b-kg1tlgawje");
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(30);
             __builder.AddAttribute(31, "class", "nav-link");
             __builder.AddAttribute(32, "href", "counter");
             __builder.AddAttribute(33, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(34, "<span class=\"oi oi-plus\" aria-hidden=\"true\" b-ctvlwvpxqk></span> Counter\r\n            ");
+                __builder2.AddMarkupContent(34, "<span class=\"oi oi-plus\" aria-hidden=\"true\" b-kg1tlgawje></span> Counter\r\n            ");
             }
             ));
             __builder.CloseComponent();
@@ -164,12 +164,12 @@ using shelter_miniproj.Client.Shared;
             __builder.AddMarkupContent(35, "\r\n        ");
             __builder.OpenElement(36, "li");
             __builder.AddAttribute(37, "class", "nav-item px-3");
-            __builder.AddAttribute(38, "b-ctvlwvpxqk");
+            __builder.AddAttribute(38, "b-kg1tlgawje");
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(39);
             __builder.AddAttribute(40, "class", "nav-link");
             __builder.AddAttribute(41, "href", "fetchdata");
             __builder.AddAttribute(42, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(43, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-ctvlwvpxqk></span> Fetch data\r\n            ");
+                __builder2.AddMarkupContent(43, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-kg1tlgawje></span> Fetch data\r\n            ");
             }
             ));
             __builder.CloseComponent();
@@ -177,12 +177,12 @@ using shelter_miniproj.Client.Shared;
             __builder.AddMarkupContent(44, "\r\n        ");
             __builder.OpenElement(45, "li");
             __builder.AddAttribute(46, "class", "nav-item px-3");
-            __builder.AddAttribute(47, "b-ctvlwvpxqk");
+            __builder.AddAttribute(47, "b-kg1tlgawje");
             __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(48);
             __builder.AddAttribute(49, "class", "nav-link");
             __builder.AddAttribute(50, "href", "shelters");
             __builder.AddAttribute(51, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(52, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-ctvlwvpxqk></span> Shelters\r\n            ");
+                __builder2.AddMarkupContent(52, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-kg1tlgawje></span> Shelters\r\n            ");
             }
             ));
             __builder.CloseComponent();

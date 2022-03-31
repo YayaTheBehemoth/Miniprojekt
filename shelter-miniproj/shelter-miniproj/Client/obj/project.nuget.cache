@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dTuRAvUh2ww6P4IH6TFPwUK7Y3fgYwE2YqrdSzPtOVSWmX6PITO2OARHUZKGxjINSQPXCQ4+SzgnC5Kkp0mEuw==",
+  "dgSpecHash": "uiG0e9OxtMDvStG8R3ZwNS6RLonnkH1Ww0cEwinE5L/L5DCKuOJ1LU9XC3ihwpaDYRqDfwMvPUmpC8x/mEj+KQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter-miniproj.Client.csproj",
+  "projectFilePath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter_miniproj.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chefen\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\Chefen\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",

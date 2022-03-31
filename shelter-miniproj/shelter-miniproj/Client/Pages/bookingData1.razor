@@ -1,0 +1,223 @@
+﻿@using shelter_miniproj.Client.Pages
+@using shelter_miniproj.Shared.Models;
+@using System;
+@using System.Collections.Generic;
+@using System.Threading.Tasks;
+@using System.Net.Http;
+@using Microsoft.AspNetCore.Components;
+@using System.Net.Http.Json;
+
+@page "/fetchbooking"
+@inherits bookingDataModel
+@namespace shelter_miniproj.Client.Pages
+
+<h1>Employee Data</h1>
+<h3>CRUD operation with Blazor using MongoDB</h3>
+<br />
+
+    <div style="float:left">
+        <button class="btn btn-primary" onclick="@Addbooking()">Add booking</button>
+    </div>
+    <br/>
+
+    @if (bookingList == null)
+    {
+        <p><em> Loading... </em></p>
+    }
+    else
+    {
+        <table class = 'table'>
+            <thead>
+                <tr>
+                    <th> @book.Navn </th>
+                    <th> @book.Email </th>
+                    <th> @book.Tlf </th>
+                    <th> @book.Adresse </th>
+                    <th> @book.Postnummer </th>
+                    <th> @book.Antal_Personer </th>
+                    <th> @book.Shelter </th>
+
+                </tr>
+            </thead>
+             <tbody>
+            @foreach (var book in bookingList)
+            {
+                <tr>
+                    <td>@book.Navn</td>
+                    <td>@book.Email</td>
+                    <td>@book.Tlf</td>
+                    <td>@book.Adresse</td>
+                     <td>@book.Postnummer</td>
+                      <td>@book.Antal_Personer</td>
+                           <td>@book.Shelter</td>
+                    <td>
+                        <button class="btn btn-info" onclick="@(Editbooking(@book.id))">Edit</button>
+                        <button class="btn btn-danger" onclick="@(DeleteConfirm(@book.id))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        </table>
+
+        if (isAdd)
+        {
+            <div class ="modal" tabindex="-1" style="display:block" role="dialog">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">@modalTitle</h3>
+                        <button type="button" class="close" onclick="@ModalCancel()">
+                            <span aria-hidden="true">X</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="Navn" class="control-label">Navn</label>
+                                <input for="Navn" class="form-control" bind="@book.Navn" />
+                            </div>
+
+         <div class="form-group">
+                                <label asp-for="Shelter" class="control-label">Shelter</label>
+                                <select asp-for="Shelter" class="form-control" bind="@book.Shelter">
+                                    <option value="">-- Select Shelter --</option>
+                                    <option value="Adresse1">Adresse1</option>
+                                    <option value="Adresse2">Adresse2</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label">Email</label>
+                                <input asp-for="Email" class="form-control" bind="@book.Email" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-block btn-success" onclick="@(Savebooking())" data-dismiss="modal">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    if (isDelete)
+    {
+        <div class="modal" tabindex="-1" style="display:block" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Delete booking</h3>
+                    </div>
+                    <div class="modal-body">
+                        <h4>Do you want to delete this booking ??</h4>
+                        <table class="table">
+                            <tr>
+                                <td>Name</td>
+                                <td>@book.Id</td>
+                            </tr>
+                            <tr>
+                                <td>Gender</td>
+                                <td>@book.Shelter</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>@book.Email</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" onclick="@(Deletebooking(book.Id))" data-dismiss="modal">YES</button>
+                        <button class="btn btn-warning" onclick="@ModalCancel()">NO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    }
+    @code{
+      
+
+    public class bookingDataModel : ComponentBase
+    {
+        [Inject]
+        protected HttpClient Http { get; set; }
+
+        protected List<booking> bookingList;
+        protected List<shelter> shelterList = new List<shelter>();
+
+        protected booking book = new booking();
+        protected string modalTitle { get; set; }
+        protected Boolean isDelete = false;
+        protected Boolean isAdd = false;
+
+        protected string Søgefelt { get; set; }
+        protected async Task OnInitAsync()
+        {
+            await Getbooking();
+            await Getshelter();
+        }
+        protected async Task Getbooking()
+        {
+            bookingList = await Http.GetFromJsonAsync<List<booking>>("api/booking/Index");
+        }
+        protected async Task Getshelter()
+        {
+            shelterList = await Http.GetFromJsonAsync<List<shelter>>("api/shelter/Getshelter");
+        }
+
+        protected booking Addbooking()
+        {
+            book = new booking();
+            this.modalTitle = "Add booking";
+            this.isAdd = true;
+            return book;
+        } 
+
+        protected async Task Editbooking(string ID)
+        {
+            book = await Http.GetFromJsonAsync<booking>("/api/booking/Details/{id}" + ID);
+            this.modalTitle = "Edit booking";
+            this.isAdd = true;
+        }
+
+        protected async Task Savebooking()
+        {
+            if (book.Id != null)
+            {
+                await Http.PostAsJsonAsync( "api/booking/Edit", book);
+            }
+            else
+            {
+                await Http.PostAsJsonAsync("/api/booking/Create", book);
+
+            }
+            this.isAdd = false;
+            await Getbooking();
+        }
+
+        protected async Task DeleteConfirm(string Id)
+        {
+            book = await Http.GetFromJsonAsync<booking>("/api/booking/Details/" + Id);
+            this.isDelete = true;
+        }
+
+        protected async Task Deletebooking(object Id)
+        {
+            await Http.DeleteAsync("api/booking/Delete/{id}" + Id);
+
+            this.isDelete = false;
+            await Getbooking();
+        }
+        protected object ModalCancel()
+        {
+            this.isAdd = false;
+            this.isDelete = false;
+            return null;
+        }
+    }
+}
+
+
+     
+    }
+

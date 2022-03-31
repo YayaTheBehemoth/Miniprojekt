@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SolrNet.Utils;
 
 namespace shelter_miniproj.Server.DataAccess
 {
@@ -31,9 +32,9 @@ namespace shelter_miniproj.Server.DataAccess
         {
             try
             {
-                db.bookingRecord.ReplaceOne(filter: g => g._id == booking._id, replacement: booking);
-                
-                    catch
+                db.bookingRecord.ReplaceOne(filter: g => g.id == booking.id, replacement: booking);
+            }
+            catch
             {
                 throw;
             }
@@ -53,6 +54,31 @@ namespace shelter_miniproj.Server.DataAccess
             }
         }
 
+        public List<booking> GetbookingData(string id)
+        {
+            try
+            {
+                return db.bookingRecord.Find(_ => true).ToList();
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public void Deletebooking(string id)
+        {
+            try
+            {
+                FilterDefinition<booking> bookingData = Builders<booking>.Filter.Eq("Id", id);
+                db.bookingRecord.DeleteOne(bookingData);
+            }
+            catch
+            {
+                throw;
+            }
+
+        }
     }
 }
 

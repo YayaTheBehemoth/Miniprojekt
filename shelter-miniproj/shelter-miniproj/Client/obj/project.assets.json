@@ -2036,9 +2036,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter-miniproj.Client.csproj",
-      "projectName": "shelter-miniproj.Client",
-      "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter-miniproj.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter_miniproj.Client.csproj",
+      "projectName": "shelter_miniproj.Client",
+      "projectPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\shelter_miniproj.Client.csproj",
       "packagesPath": "C:\\Users\\Chefen\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\GitHub\\Miniprojekt\\shelter-miniproj\\shelter-miniproj\\Client\\obj\\",
       "projectStyle": "PackageReference",

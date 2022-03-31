@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-KcIdH56Sy6VoY6pI9LvXDQbv1L7KzICQv9HgWu\/y00s=",
+      "hash": "sha256-BhP36d5h3sYGlO5bbGGNt\/fFrCOp\/isjQ59t24YcFAE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -817,19 +817,19 @@
       "url": "_framework\/dotnet.5.0.14.js"
     },
     {
-      "hash": "sha256-Q2M6DW3OaQhhqPvmAKSSGSa+HzZsys0D1oGN+tjRuSw=",
+      "hash": "sha256-s1VLnvDlqyj1Ac0y\/RCw4Ab\/Ypj3KGbUTuCNfm0e3go=",
       "url": "_framework\/shelter_miniproj.Shared.dll"
     },
     {
-      "hash": "sha256-dR9GfNL6znJgLAX6FUR8HfVh1A2xnmcRh3wqQ4RZsZo=",
+      "hash": "sha256-GiPGbjGetwL4bqQ7Hjo+\/Nom+bddAnF1W+gddgg91pA=",
       "url": "_framework\/shelter_miniproj.Shared.pdb"
     },
     {
-      "hash": "sha256-OD26TxTF6qBpWC2NU7ad09XVPJGM0PsxiDBMMm+qQeE=",
+      "hash": "sha256-lh1ilY6T8mddNnGEXrappzDM\/ILXeO5f3cuc6w20ydg=",
       "url": "_framework\/shelter-miniproj.Client.dll"
     },
     {
-      "hash": "sha256-LzSXFFc+oErfpUgUpKXNEXkIF2CUWjFP+FTXpuxpucI=",
+      "hash": "sha256-k43+T61VZUfzBSdhVLZH0RbTC9K6Xm\/fBB7kPtaRnF0=",
       "url": "_framework\/shelter-miniproj.Client.pdb"
     },
     {
@@ -1649,7 +1649,7 @@
       "url": "_framework\/dotnet.5.0.14.js.gz"
     },
     {
-      "hash": "sha256-Pj9SS7i1bh+nivqyEW+pQxFKngnURvd+AHHmmkJarfY=",
+      "hash": "sha256-9xRe+f4\/p2ZOhfYXg4VszeYlcU6MKUW144Tqe7\/vHpM=",
       "url": "_framework\/shelter_miniproj.Shared.dll.gz"
     },
     {
@@ -1725,5 +1725,5 @@
       "url": "shelter-miniproj.Client.bundle.scp.css"
     }
   ],
-  "version": "flD36Z\/p"
+  "version": "VMbwOxfh"
 };

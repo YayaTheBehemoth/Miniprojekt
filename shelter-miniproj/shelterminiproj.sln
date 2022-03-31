@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelter-miniproj.Server", "shelter-miniproj\Server\shelter-miniproj.Server.csproj", "{0564E3C6-02BA-4A50-BF53-F36E0290C781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelter_miniproj.Server", "shelter-miniproj\Server\shelter_miniproj.Server.csproj", "{0564E3C6-02BA-4A50-BF53-F36E0290C781}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelter-miniproj.Client", "shelter-miniproj\Client\shelter-miniproj.Client.csproj", "{1AA6F8A6-2F3C-4477-AAC0-31CBC751EAFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelter_miniproj.Client", "shelter-miniproj\Client\shelter_miniproj.Client.csproj", "{1AA6F8A6-2F3C-4477-AAC0-31CBC751EAFA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shelter_miniproj.Shared", "shelter-miniproj\Shared\shelter_miniproj.Shared.csproj", "{FE3AE78D-42CD-4BE4-95C6-F7DADD08450C}"
 EndProject

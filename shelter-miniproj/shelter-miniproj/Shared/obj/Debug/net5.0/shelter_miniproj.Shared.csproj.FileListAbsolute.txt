@@ -1,11 +1,11 @@
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\bin\Debug\net5.0\shelter_miniproj.Shared.deps.json
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\bin\Debug\net5.0\shelter_miniproj.Shared.dll
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\bin\Debug\net5.0\shelter_miniproj.Shared.pdb
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter_miniproj.Shared.csproj.AssemblyReference.cache
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter_miniproj.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter_miniproj.Shared.AssemblyInfoInputs.cache
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter_miniproj.Shared.AssemblyInfo.cs
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter_miniproj.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\bin\Debug\net5.0\shelter_miniproj.Shared.deps.json
-C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\bin\Debug\net5.0\shelter_miniproj.Shared.dll
-C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\bin\Debug\net5.0\shelter_miniproj.Shared.pdb
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter_miniproj.Shared.dll
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\refint\shelter_miniproj.Shared.dll
 C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Shared\obj\Debug\net5.0\shelter_miniproj.Shared.pdb

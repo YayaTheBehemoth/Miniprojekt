@@ -2,7 +2,7 @@
   "cacheBootResources": true,
   "config": [ ],
   "debugBuild": true,
-  "entryAssembly": "shelter-miniproj.Client",
+  "entryAssembly": "shelter_miniproj.Client",
   "icuDataMode": 0,
   "linkerEnabled": false,
   "resources": {
@@ -203,15 +203,15 @@
       "mscorlib.dll": "sha256-pOPJrGSp+RVyYmvcT+PTaEq9fVhEFzvMs\/3Ue3S2j+A=",
       "netstandard.dll": "sha256-bY3Q1RCB\/lmUAo5AG5YDHBu5uD8OxCGAiJ+wukrs1pw=",
       "System.Private.CoreLib.dll": "sha256-25IZl0xgoqOBdkTlEjUBLmiiRGYCYI1BaFevKzE+EHk=",
-      "shelter_miniproj.Shared.dll": "sha256-Q2M6DW3OaQhhqPvmAKSSGSa+HzZsys0D1oGN+tjRuSw=",
-      "shelter-miniproj.Client.dll": "sha256-OD26TxTF6qBpWC2NU7ad09XVPJGM0PsxiDBMMm+qQeE="
+      "shelter_miniproj.Shared.dll": "sha256-RvvUrgv9DAvP8cr2GPx\/7bArNSrgm162i5vegDCg8tU=",
+      "shelter_miniproj.Client.dll": "sha256-14UC2u0k6+K86Gwu\/hHcEkXQNJkQ9u3IfhyFCtQpVVk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "shelter_miniproj.Shared.pdb": "sha256-dR9GfNL6znJgLAX6FUR8HfVh1A2xnmcRh3wqQ4RZsZo=",
-      "shelter-miniproj.Client.pdb": "sha256-LzSXFFc+oErfpUgUpKXNEXkIF2CUWjFP+FTXpuxpucI="
+      "shelter_miniproj.Shared.pdb": "sha256-MrI8fJqzL7YMTGT42ffjEEQA\/jPqzAwdUKddCyDcyqo=",
+      "shelter_miniproj.Client.pdb": "sha256-7CJKQD1dwBRudeuKRpFgWIKceeyFCPkmpwfJmJzKetc="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Ek+C0V\/4GBnUGH1\/X20UjHhjyp7se2MX+2RHWSpKSDE=",

@@ -1,0 +1,8 @@
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.csproj.AssemblyReference.cache
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.AssemblyInfoInputs.cache
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.AssemblyInfo.cs
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.csproj.CoreCompileInputs.cache
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.RazorAssemblyInfo.cache
+C:\Users\Chefen\OneDrive\Dokumenter\GitHub\Miniprojekt\shelter-miniproj\shelter-miniproj\Server\obj\Debug\net5.0\shelter_miniproj.Server.RazorAssemblyInfo.cs
