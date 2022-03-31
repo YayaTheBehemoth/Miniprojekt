@@ -1,0 +1,11 @@
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/bin/Debug/net5.0/miniproj3.Shared.deps.json
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/bin/Debug/net5.0/miniproj3.Shared.dll
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/bin/Debug/net5.0/ref/miniproj3.Shared.dll
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/bin/Debug/net5.0/miniproj3.Shared.pdb
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/Debug/net5.0/miniproj3.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/Debug/net5.0/miniproj3.Shared.AssemblyInfoInputs.cache
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/Debug/net5.0/miniproj3.Shared.AssemblyInfo.cs
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/Debug/net5.0/miniproj3.Shared.csproj.CoreCompileInputs.cache
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/Debug/net5.0/miniproj3.Shared.dll
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/Debug/net5.0/ref/miniproj3.Shared.dll
+/Users/placeholder/Projects/miniproj3/miniproj3/Shared/obj/Debug/net5.0/miniproj3.Shared.pdb
