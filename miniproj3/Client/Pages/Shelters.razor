@@ -2,6 +2,7 @@
 @using miniproj3.Shared
 @inject HttpClient Http
 
+
 <!--
 @if (shelters == null)
 {
@@ -11,17 +12,48 @@
 <div class="row">
     <div class="col-lg-6">
         <h3>Book her!</h3>
-
-        <input placeholder="Enter Name" @bind="Booking.Name" />
-        <input @bind-value="Booking.Email" placeholder="Enter Email" />
-        <input @bind-value="Booking.Note" placeholder="Kommentar" />
+   
+        <select id="shelter" multiple>
+            @foreach (var Shelter in shelters)
+            {
+                <option value="@Shelter.Id">@Shelter.Type</option>
+            }
+        </select>
+        <!--
+        <label>
+            Select a shelter
+            <select @onchange="SelectedCarsChanged" mulitiple>
+                <option value="Audi">Audi</option>
+                <option value="Skoda">Skoda</option>
+                <option value="Ford">Ford</option>
+                <option value="Peugeot">Peugeot</option>
+            </select>
+        </label>
+        -->
+        <br /><p></p>
+        <label> Indtast Navn </label>
+            <input placeholder="Enter Name" @bind="Booking.Name" />
+        <br /><p></p>
+        <label> Indtast E-Mail </label>  
+            <input @bind-value="Booking.Email" placeholder="Enter Email" />
+        <br /><p></p>
+        <label> Indtast Kommentar</label>
+            <input @bind-value="Booking.Note" placeholder="Kommentar" />
+        <br /><p></p>
         <input @bind-value="Booking.Tlf" placeholder="tlf" />
+        <br /><p></p>
         <input @bind-value="Booking.By" placeholder="By" />
+        <br /><p></p>
         <input @bind-value="Booking.Adresse" placeholder="Adresse" />
+        <br /><p></p>
         <input @bind-value="Booking.PostNr" placeholder="Post nummer" />
+        <br /><p></p>
         <input @bind-value="Booking.AntalPersoner" placeholder="Antal personer" />
+        <br /><p></p>
         <input @bind-value="Booking.Afrejse" placeholder="Enter Afrejse" />
+        <br /><p></p>
         <input @bind-value="Booking.Ankomst" placeholder="Enter Ankomst" />
+        <br /><p></p>
         <!--
     <select name="shelters">
         @foreach (var shelter in shelters)
@@ -31,7 +63,7 @@
     </select>
         -->
         <button class="btn btn-primary btn-block" @onclick="SubmitShelter"> Submit</button>
-
+        <br /><p></p>
     </div>
 </div>
 <!--
@@ -74,9 +106,27 @@
 
         }
     -->
-@code {/*
-    private ShelterTest[] shelters;
-*/
+@code {
+        /*
+        private ShelterTest[] shelters;
+    */
+    List<ShelterTest> shelters = new List<ShelterTest>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        shelters = await Http.GetFromJsonAsync<List<ShelterTest>>("ShelterSeb");
+    }
+    /**
+    public string[] SelectedCars { get; set; } = new string[] { };
+
+    void SelectedCarsChanged(ChangeEventArgs e)
+    {
+        if (e.Value is not null)
+        {
+            SelectedCars = (string[])e.Value;
+        }
+    }
+    **/
     private bool edit = false;
     private Booking Booking = new Booking();
     /*

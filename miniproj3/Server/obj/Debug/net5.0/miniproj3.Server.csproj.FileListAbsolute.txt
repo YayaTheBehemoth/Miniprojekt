@@ -110,6 +110,7 @@ C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Server\bin\Debug\net5.0\MongoDB.Driver.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Server\bin\Debug\net5.0\MongoDB.Driver.Core.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Server\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Server\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Server\bin\Debug\net5.0\SharpCompress.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Server\bin\Debug\net5.0\Syncfusion.Licensing.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Server\bin\Debug\net5.0\System.IO.Pipelines.dll

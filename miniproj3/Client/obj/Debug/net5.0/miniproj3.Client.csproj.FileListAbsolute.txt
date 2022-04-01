@@ -651,6 +651,7 @@ C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\miniproj3.Client.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\miniproj3.Client.pdb
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\DnsClient.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -674,6 +675,11 @@ C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Bson.dll.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Driver.dll.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Driver.Core.dll.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Libmongocrypt.dll.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\SharpCompress.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Licensing.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
@@ -849,6 +855,7 @@ C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.15.js.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\miniproj3.Shared.dll.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\DnsClient.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
@@ -872,6 +879,11 @@ C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Bson.dll
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Driver.dll
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Driver.Core.dll
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\MongoDB.Libmongocrypt.dll
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\SharpCompress.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Licensing.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll
@@ -1074,6 +1086,7 @@ C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\rRQiprQC.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\OTF3f83f.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\rJkPRjuc.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\mPMyqX91.gz
@@ -1097,6 +1110,11 @@ C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\FvDyjyFM.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\ikRzoZ4+.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\jRwXAJvK.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\BMqHojts.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\7nt8Xdqu.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\KXtHeFXD.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\ftVPGy5d.gz
+C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\HnavPBCZ.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\7eYIw5mZ.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\LsuEGuQ1.gz
 C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\obj\Debug\net5.0\build-gz\IT+x+Fmv.gz

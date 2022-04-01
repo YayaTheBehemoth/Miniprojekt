@@ -105,10 +105,28 @@ using miniproj3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 77 "C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\Pages\Shelters.razor"
-       /*
-    private ShelterTest[] shelters;
-*/
+#line 109 "C:\Users\zulud\OneDrive\Dokumenter\Skole\Fag\2. semester\Miniprojekt\Miniprojekt\miniproj3\Client\Pages\Shelters.razor"
+       
+        /*
+        private ShelterTest[] shelters;
+    */
+    List<ShelterTest> shelters = new List<ShelterTest>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        shelters = await Http.GetFromJsonAsync<List<ShelterTest>>("ShelterSeb");
+    }
+    /**
+    public string[] SelectedCars { get; set; } = new string[] { };
+
+    void SelectedCarsChanged(ChangeEventArgs e)
+    {
+        if (e.Value is not null)
+        {
+            SelectedCars = (string[])e.Value;
+        }
+    }
+    **/
     private bool edit = false;
     private Booking Booking = new Booking();
     /*

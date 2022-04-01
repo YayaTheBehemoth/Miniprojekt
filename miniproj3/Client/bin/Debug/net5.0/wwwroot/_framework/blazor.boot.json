@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "DnsClient.dll": "sha256-XFrb8OLREZnPfwKYGkJqqnN6zBL81E3\/fFPZfbZI0Ns=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-vQofHolgX54IVKnEIiqW1yzn9EMTRytYdwcyZ6s7P4A=",
       "Microsoft.AspNetCore.Components.dll": "sha256-\/eLsqWcEOPASfNXA\/1N+Vtl66yk4EywPo3QtyzauK2M=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-NnEOSagUjZ6lz83IOD8XYyG8avBCM3WF21JGn1ASnKk=",
@@ -30,6 +31,11 @@
       "Microsoft.JSInterop.dll": "sha256-lRltBpsJTXW9P43UvwnTc\/\/08+GI\/C70tkuJaUjJMv0=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-IjG42rZjbdAnOMJMlqcJW3tLJh2lwkStSndPy7zjZV4=",
       "MongoDB.Bson.dll": "sha256-FQmshbUHNBV5fRs5zXfQ42OAPyqrc97\/v069WvNOALA=",
+      "MongoDB.Driver.dll": "sha256-hDJSUXoRB9hKHOrzJJp7EABkVp0LowKC0HKSmpYxZb8=",
+      "MongoDB.Driver.Core.dll": "sha256-BoORO9LMclY90IVNDyJzLTX1DvLyPay2mGZATipgNCo=",
+      "MongoDB.Libmongocrypt.dll": "sha256-TaK3VRk+NmCEevU0XWGzE\/ID1QBZ5uXyy2DtD6WL54Q=",
+      "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "SharpCompress.dll": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
       "Syncfusion.Licensing.dll": "sha256-bojQHewUZhxJbN6GaEVv7eAMkVYPo6dy2HLdMD\/mJao=",
       "System.IO.Pipelines.dll": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
       "Microsoft.CSharp.dll": "sha256-WU\/XmUn6LEK2VOOdyAtkC6Vh2R9Adh+wIl16y74XXBc=",
@@ -197,15 +203,15 @@
       "mscorlib.dll": "sha256-CbcIR45\/xUFaZJqGIle6bb7v2kWYjp4kOFpKNnCkd4I=",
       "netstandard.dll": "sha256-qE0Q70OyVlHYY\/Y3nwMjfh+zissea9uhfvWMvPWfI7w=",
       "System.Private.CoreLib.dll": "sha256-pdkcl2+OojCfrhxX5eFmKI30wAmhL6s+sCLp7s175k0=",
-      "miniproj3.Shared.dll": "sha256-tyCGztz2HBtIB2XCe8UG7SKmu\/bdoerGeaU5zK0OsyU=",
-      "miniproj3.Client.dll": "sha256-qE\/6a7hB+fxm3i21QKyntskJ6PWlr8OKhZf5gtJ1I\/8="
+      "miniproj3.Shared.dll": "sha256-e1EFEKLCxOrLKxPVXwttlJaMQrqATgK73pXfkJCriL0=",
+      "miniproj3.Client.dll": "sha256-52tUpcS6gAQuHV5AFse6Xd5fvBau1ZqUytYXK\/NBMsE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "miniproj3.Shared.pdb": "sha256-WGwyFeG2gthQHr2Btq2M+dIxMjMtPjAfhmAPT94w6k4=",
-      "miniproj3.Client.pdb": "sha256-Ij3J3urVooStUsQwdGF8InIjsNpZWosmnbzxuYcmQX4="
+      "miniproj3.Shared.pdb": "sha256-jo+sN7nHWCLEUUyATMqB8xaSJDm2KmGIBzRyetrycDk=",
+      "miniproj3.Client.pdb": "sha256-Se2yatLpirMT3QFieRXvpwgrbbk3ThnA8k\/anFwQn7o="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ootDKSA6cNAbgJLmPhrHsPVvVqkGEYdRZxucC22LWjw=",

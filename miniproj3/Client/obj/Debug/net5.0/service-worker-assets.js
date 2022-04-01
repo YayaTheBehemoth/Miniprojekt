@@ -1,8 +1,12 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-v04Ksri6Ygmsx1tdPIMctfJr9NadeSu5ACKwp5S8Ijw=",
+      "hash": "sha256-q1MXkdGSJBSE803vCRnO8HuKgAT1dcRbeWNAes\/bSPw=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-XFrb8OLREZnPfwKYGkJqqnN6zBL81E3\/fFPZfbZI0Ns=",
+      "url": "_framework\/DnsClient.dll"
     },
     {
       "hash": "sha256-vQofHolgX54IVKnEIiqW1yzn9EMTRytYdwcyZ6s7P4A=",
@@ -95,6 +99,26 @@
     {
       "hash": "sha256-FQmshbUHNBV5fRs5zXfQ42OAPyqrc97\/v069WvNOALA=",
       "url": "_framework\/MongoDB.Bson.dll"
+    },
+    {
+      "hash": "sha256-hDJSUXoRB9hKHOrzJJp7EABkVp0LowKC0HKSmpYxZb8=",
+      "url": "_framework\/MongoDB.Driver.dll"
+    },
+    {
+      "hash": "sha256-BoORO9LMclY90IVNDyJzLTX1DvLyPay2mGZATipgNCo=",
+      "url": "_framework\/MongoDB.Driver.Core.dll"
+    },
+    {
+      "hash": "sha256-TaK3VRk+NmCEevU0XWGzE\/ID1QBZ5uXyy2DtD6WL54Q=",
+      "url": "_framework\/MongoDB.Libmongocrypt.dll"
+    },
+    {
+      "hash": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "url": "_framework\/Newtonsoft.Json.dll"
+    },
+    {
+      "hash": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
+      "url": "_framework\/SharpCompress.dll"
     },
     {
       "hash": "sha256-bojQHewUZhxJbN6GaEVv7eAMkVYPo6dy2HLdMD\/mJao=",
@@ -793,24 +817,28 @@
       "url": "_framework\/dotnet.5.0.15.js"
     },
     {
-      "hash": "sha256-tyCGztz2HBtIB2XCe8UG7SKmu\/bdoerGeaU5zK0OsyU=",
+      "hash": "sha256-e1EFEKLCxOrLKxPVXwttlJaMQrqATgK73pXfkJCriL0=",
       "url": "_framework\/miniproj3.Shared.dll"
     },
     {
-      "hash": "sha256-WGwyFeG2gthQHr2Btq2M+dIxMjMtPjAfhmAPT94w6k4=",
+      "hash": "sha256-jo+sN7nHWCLEUUyATMqB8xaSJDm2KmGIBzRyetrycDk=",
       "url": "_framework\/miniproj3.Shared.pdb"
     },
     {
-      "hash": "sha256-qE\/6a7hB+fxm3i21QKyntskJ6PWlr8OKhZf5gtJ1I\/8=",
+      "hash": "sha256-52tUpcS6gAQuHV5AFse6Xd5fvBau1ZqUytYXK\/NBMsE=",
       "url": "_framework\/miniproj3.Client.dll"
     },
     {
-      "hash": "sha256-Ij3J3urVooStUsQwdGF8InIjsNpZWosmnbzxuYcmQX4=",
+      "hash": "sha256-Se2yatLpirMT3QFieRXvpwgrbbk3ThnA8k\/anFwQn7o=",
       "url": "_framework\/miniproj3.Client.pdb"
     },
     {
       "hash": "sha256-dl8FVRvWOJfOtzIC\/x66QNnBNsT9cAOMrn22GB8fJ8U=",
       "url": "_framework\/blazor.webassembly.js"
+    },
+    {
+      "hash": "sha256-gV4iVJiWM2tRgpAInQ0Td\/Q5U5zLy3IQAdyI4rDUJ6I=",
+      "url": "_framework\/DnsClient.dll.gz"
     },
     {
       "hash": "sha256-EO\/BwTGitTanWZcrX41BUcKTxaCUpe78iwTZdNigrrI=",
@@ -903,6 +931,26 @@
     {
       "hash": "sha256-lN\/DZkcsSlP3Lk++zhreMrqN97V1iZk0G0tmHv5GdzA=",
       "url": "_framework\/MongoDB.Bson.dll.gz"
+    },
+    {
+      "hash": "sha256-Lv74wnTDWQyOs8BczXkhP4KCQ7yv363hpYjVcnzgo\/g=",
+      "url": "_framework\/MongoDB.Driver.dll.gz"
+    },
+    {
+      "hash": "sha256-R9cYDiKJ5wPk4cgeCzfp9cPTz+Hc5A8LYKLO3nOkwhs=",
+      "url": "_framework\/MongoDB.Driver.Core.dll.gz"
+    },
+    {
+      "hash": "sha256-fno\/jdpUimm\/IfhrhgR4ZiElY1u\/tgJLeYvkqzpo9\/g=",
+      "url": "_framework\/MongoDB.Libmongocrypt.dll.gz"
+    },
+    {
+      "hash": "sha256-dnh+NOlVLVPDt\/7o1z+6yeufEse+5\/QWBcLdc\/qmjCo=",
+      "url": "_framework\/Newtonsoft.Json.dll.gz"
+    },
+    {
+      "hash": "sha256-Z5u6+s4jgYj41wVTTipi+IxGuMtdCVrrgFoR8Zf4VKo=",
+      "url": "_framework\/SharpCompress.dll.gz"
     },
     {
       "hash": "sha256-Kssz68Bbbhqe2xcOx4+w\/jVR2S\/V9J9l0oNVqMxCuRA=",
@@ -1601,7 +1649,7 @@
       "url": "_framework\/dotnet.5.0.15.js.gz"
     },
     {
-      "hash": "sha256-LvjBadNKdEw4erOtY7w00bWGeNMSEWrwVzMIhV9rPGM=",
+      "hash": "sha256-QMELGwWDrviIvc5J4PNRkJEEXiYqKKciq7wuq\/WqjAY=",
       "url": "_framework\/miniproj3.Shared.dll.gz"
     },
     {
@@ -1677,5 +1725,5 @@
       "url": "miniproj3.Client.bundle.scp.css"
     }
   ],
-  "version": "CXB7jvCI"
+  "version": "sdvUw293"
 };

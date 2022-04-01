@@ -12,6 +12,8 @@ namespace miniproj3.Shared
         [BsonElement]
         public string Type { get; set; }
 
+        [BsonElement]
+        public string ShelterName { get; set; }
 
     }
 }

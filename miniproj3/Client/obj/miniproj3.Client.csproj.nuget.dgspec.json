@@ -53,6 +53,14 @@
               "target": "Package",
               "version": "[5.0.15, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Syncfusion.Licensing": {
               "target": "Package",
               "version": "[19.4.0.56, )"
@@ -131,6 +139,14 @@
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.15.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
